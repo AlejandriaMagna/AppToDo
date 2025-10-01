@@ -38,7 +38,7 @@ El proyecto está diseñado para ejecutarse dentro de un entorno virtual (venv) 
 
 Se demuestra el cumplimiento de los objetivos de persistencia (Guardado/Carga de datos) y el manejo de registros (CRUD) en la base de datos SQLite.
 
-### 1. Estado Inicial (Creación de Tabla Vacía)
+### Estado Inicial (Creación de Tabla Vacía)
 
 Se demuestra que la tabla `tareas` existe y está vacía después de inicializar la aplicación por primera vez, cumpliendo con la función `create_table()`.
 
@@ -46,3 +46,5 @@ Se demuestra que la tabla `tareas` existe y está vacía después de inicializar
 ```bash
 sqlite3 tareas.db
 SELECT * FROM tareas;
+
+
