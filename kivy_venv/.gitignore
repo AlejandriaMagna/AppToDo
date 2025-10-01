@@ -1,0 +1,6 @@
+# Entorno virtual de Python
+kivy_venv/
+
+# Archivos de caché
+__pycache__/
+*.pyc
